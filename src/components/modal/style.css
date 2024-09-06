@@ -1,0 +1,27 @@
+.Modal {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  min-height: 400px;
+  min-width: 400px;
+
+  margin: auto;
+  padding: 40px;
+
+  box-shadow: 5px 5px 10px #555;
+  border-radius: 10px;
+  background: #fff;
+
+  align-items: center;
+}
+
+.Modal-title {
+  width: 100%;
+
+  padding-bottom: 40px;
+
+  font-size: 28px;
+
+  text-align: center;
+}

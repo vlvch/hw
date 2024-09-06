@@ -1,0 +1,28 @@
+.Button {
+  width: 100%;
+  padding: 10px 0;
+
+  text-align: center;
+
+  background-image: linear-gradient(
+    to right top,
+    #1d57dc,
+    #0086fa,
+    #00aeff,
+    #00d2fe,
+    #22f2f6
+  );
+
+  color: #fff;
+  font-size: 16px;
+
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 5px #555;
+  transition: 0.3s;
+}
+
+.Button:hover {
+  transition: 0.3s;
+  box-shadow: 2px 2px 10px #00aeff;
+}
